@@ -198,7 +198,33 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 # 8.  Evidences Collected
 Screenshots collected as evidence during the activities (stored in the screenshots/ folder):
 
+### 1. WHOIS Enumeration
+
 <img src="./screenshots/1_whois.png" width="800">
+
+### 2. WhatWeb
+
+<img src="./screenshots/2_whatweb.png" width="800">
+
+### 3. NSLookup
+
+<img src="./screenshots/3_nslookup.png" width="800">
+
+### 4. cURL
+
+<img src="./screenshots/4_curl.png" width="800">
+
+### 5. WAFW00F
+
+<img src="./screenshots/5_wafw00f.png" width="800">
+
+### 6. Zenmap
+
+<img src="./screenshots/7_zenmap.png" width="800">
+
+### 7. Zenmap Results
+
+<img src="./screenshots/8_zenmap2.png" width="800">
 
 
 
