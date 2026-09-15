@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Report Information
+##  Report Information
 
 | Item | Details |
 |---|---|
@@ -20,7 +20,7 @@
 
 ---
 
-## 1. ⚠️ Liability Disclaimer
+## 1.  Liability Disclaimer
 
 I have performed these activities only on the systems and devices where I had secured written permission or on devices and systems that I own myself.
 
@@ -32,7 +32,7 @@ In most countries, unauthorized access is a crime even when nothing is damaged.
 
 ---
 
-## 2. 📖 Introduction
+## 2.  Introduction
 
 This report covers footprinting the **networkwalks.com** domain using multiple Kali Linux tools (**W2-PM1**) and scanning my own local network with **Zenmap (W2-PM5)**.
 
@@ -62,7 +62,7 @@ Each activity below includes the exact command or tool used, the result observed
 
 ---
 
-# 4. 🔍 Activities Performed
+# 4.  Activities Performed
 
 ## 4.1 Footprinting & Reconnaissance
 
@@ -72,41 +72,28 @@ I performed reconnaissance against the **networkwalks.com** domain using six Kal
 
 First, I used WHOIS to obtain publicly available domain registration information and identify the domain's name servers. The results provided information about the domain registration and hosting infrastructure.
 
-**Evidence:** `screenshots/whois.png`
-
 ### WhatWeb
 
 I then used WhatWeb to identify technologies used by the website. The results identified **WordPress 7.0.4** and **WP Download Manager 3.3.58**, along with other information exposed by the website.
-
-**Evidence:** `screenshots/whatweb.png`
 
 ### nslookup
 
 Using nslookup, I resolved the domain name to its IP address. The provided result identified **192.232.216.135**.
 
-**Evidence:** `screenshots/nslookup.png`
-
 ### curl -I
 
 I used curl with the `-I` option to inspect the HTTP response headers. This provided additional information about the web application and exposed the WordPress REST API endpoint `/wp-json/`.
-
-**Evidence:** `screenshots/curl.png`
 
 ### Wafw00f
 
 Next, I used Wafw00f to determine whether a Web Application Firewall was protecting the website. The result identified **ModSecurity (SpiderLabs)**.
 
-**Evidence:** `screenshots/wafw00f.png`
-
 ### DNSRecon
 
 Finally, I used DNSRecon to enumerate DNS records. The results provided information relating to name servers, mail servers, SPF/TXT records, service records, and DNS software information.
 
-**Evidence:** `screenshots/dnsrecon.png`
-
----
-
-## 4.2 🌐 Network Scanning with Zenmap
+----
+## 4.2  Network Scanning with Zenmap
 
 For the second activity, I used **Zenmap** to perform network discovery on my local network. The practical required me to identify my local IP address and subnet, discover live hosts, identify their IP and MAC addresses, and generate a network topology.
 
@@ -134,7 +121,7 @@ After completing the scan, I opened the **Topology** section in Zenmap, enabled 
 
 ---
 
-# 5. ⚠️ Risk Analysis / Impact
+# 5.  Risk Analysis / Impact
 
 Based on the information collected during the footprinting and network scanning activities, I identified the following potential risks.
 
@@ -163,7 +150,7 @@ Therefore, the presence of information such as a software version, IP address, o
 
 ---
 
-# 6. 🛡️ Recommendations
+# 6.  Recommendations
 
 ### Review Publicly Exposed Technology Information
 
@@ -203,7 +190,7 @@ Reconnaissance and scanning should only be performed against systems and network
 
 ---
 
-# 7. ✅ Conclusion
+# 7.  Conclusion
 
 During **Week 2** of my Cybersecurity & Ethical Hacking internship, I completed practical activities covering footprinting, reconnaissance, and network scanning.
 
@@ -219,19 +206,17 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 
 ---
 
-# 8. 📸 Evidences Collected
+# 8.  Evidences Collected
 
 | Evidence | Suggested GitHub File |
 |---|---|
-| WHOIS results | `screenshots/whois.png` |
-| WhatWeb results | `screenshots/whatweb.png` |
-| nslookup results | `screenshots/nslookup.png` |
-| curl -I results | `screenshots/curl.png` |
-| Wafw00f results | `screenshots/wafw00f.png` |
-| DNSRecon results | `screenshots/dnsrecon.png` |
-| Windows IP configuration | `screenshots/ipconfig.png` |
-| Zenmap Ping Scan | `screenshots/zenmap-scan.png` |
-| Zenmap Topology | `screenshots/zenmap-topology.png` |
+| WHOIS results | `screenshots/1_whois.png` |
+| WhatWeb results | `screenshots/2_whatweb.png` |
+| nslookup results | `screenshots/3_nslookup.png` |
+| curl -I results | `screenshots/4_curl.png` |
+| Wafw00f results | `screenshots/5_wafw00f.png` | |
+| Zenmap Ping Scan | `screenshots/6_zenmap-scan.png` |
+| Zenmap Topology | `screenshots/7_zenmap-topology.png` |
 
 > Replace the screenshot filenames above with your actual GitHub image filenames if they are different.
 
