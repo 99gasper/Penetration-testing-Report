@@ -46,7 +46,7 @@ Each activity below includes the exact command or tool used, the result observed
 
 ---
 
-## 3. 🛠️ Tools Used
+## 3.  Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -115,10 +115,6 @@ After completing the scan, I opened the **Topology** section in Zenmap, enabled 
 
 > **Note:** The actual subnet, number of hosts, IP addresses, and MAC addresses should be replaced with the results from my own network when submitting the final report.
 
-**Windows IP configuration:** `screenshots/ipconfig.png`  
-**Zenmap Ping Scan:** `screenshots/zenmap-scan.png`  
-**Zenmap Topology:** `screenshots/zenmap-topology.png`
-
 ---
 
 # 5.  Risk Analysis / Impact
@@ -134,13 +130,6 @@ Based on the information collected during the footprinting and network scanning 
 | 5 | DNS infrastructure information exposed | DNSRecon identified DNS, mail, and service-related records | DNS information can help build a broader infrastructure profile | 🔵 Medium |
 | 6 | Multiple live hosts visible on local network | Zenmap identified four live hosts in the example network | Unknown or unauthorized devices may potentially be present on a network | 🔵 Medium |
 
-### Risk Level Key
-
-| Symbol | Risk Level |
-|---|---|
-| 🔴 | Critical |
-| 🔵 | Medium |
-| 🟢 | Low |
 
 > The risks above are observations from the footprinting and scanning exercises, not confirmed vulnerabilities.
 
@@ -207,10 +196,8 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 ---
 
 # 8.  Evidences Collected
-
-| Evidence | Suggested GitHub File |
-|---|---|
-| WHOIS results | `screenshots/1_whois.png` |
+Screenshots collected as evidence during the activities (stored in the screenshots/ folder):
+ ![WHOIS results] (screenshots/1_whois.png]
 | WhatWeb results | `screenshots/2_whatweb.png` |
 | nslookup results | `screenshots/3_nslookup.png` |
 | curl -I results | `screenshots/4_curl.png` |
