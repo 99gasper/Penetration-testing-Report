@@ -197,13 +197,8 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 
 # 8.  Evidences Collected
 Screenshots collected as evidence during the activities (stored in the screenshots/ folder):
- ![WHOIS results] (./screenshots/1_whois.png]
-| WhatWeb results | `screenshots/2_whatweb.png` |
-| nslookup results | `screenshots/3_nslookup.png` |
-| curl -I results | `screenshots/4_curl.png` |
-| Wafw00f results | `screenshots/5_wafw00f.png` | |
-| Zenmap Ping Scan | `screenshots/6_zenmap-scan.png` |
-| Zenmap Topology | `screenshots/7_zenmap-topology.png` |
+![WHOIS](screenshots/1_whois.png)
+
 
 > Replace the screenshot filenames above with your actual GitHub image filenames if they are different.
 
