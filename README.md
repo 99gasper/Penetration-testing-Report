@@ -197,7 +197,7 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 
 # 8.  Evidences Collected
 Screenshots collected as evidence during the activities (stored in the screenshots/ folder):
- ![WHOIS results] (screenshots/1_whois.png]
+ ![WHOIS results] (./screenshots/1_whois.png]
 | WhatWeb results | `screenshots/2_whatweb.png` |
 | nslookup results | `screenshots/3_nslookup.png` |
 | curl -I results | `screenshots/4_curl.png` |
