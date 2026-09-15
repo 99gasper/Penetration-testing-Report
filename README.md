@@ -220,11 +220,11 @@ Screenshots collected as evidence during the activities (stored in the screensho
 
 ### 6. Zenmap
 
-<img src="./screenshots/7_zenmap.png" width="800">
+<img src="./screenshots/6_zenmap.png" width="800">
 
 ### 7. Zenmap Results
 
-<img src="./screenshots/8_zenmap2.png" width="800">
+<img src="./screenshots/7_zenmap2.png" width="800">
 
 
 
